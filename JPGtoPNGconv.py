@@ -2,7 +2,7 @@ import sys
 import os
 from PIL import Image
 
-for files in os.listdir('./new'):
-    print(files.mode)
+for file in os.listdir('./new'):
+    print(file.mode)
 
 
